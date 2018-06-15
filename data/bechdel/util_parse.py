@@ -117,7 +117,7 @@ def line_to_gender(female_char_map):
   line_map = {}
   for item in items:
     lid, uid, mid, name, line = item
-    line_map[lid] = (1 if mid in female_char_map and uid in female_char_map[mid] else 0, '{}: {}'.format(name, line))
+    line_map[lid] = (1 if mid in female_char_map and uid in female_char_map[mid] else 0, name, line)
   return line_map
 
 def filter_conv_by_gender(convs, line_map):
@@ -125,7 +125,13 @@ def filter_conv_by_gender(convs, line_map):
   filtered = []
   failed = []
   for conv in convs:
-    num_females = sum([line_map[lid][0] for lid in conv])
+    num_females = 0
+    names = set()
+    for lid in conv:
+      gender, name, line = line_map[lid]
+      if gender and name not in names:
+        num_females += 1
+        names.add(name)
     if num_females > 1:
       filtered += [(lid, line_map[lid]) for lid in sorted(conv)],
     else:
