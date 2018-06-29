@@ -7,14 +7,14 @@ Instructors: [Rob Voigt](https://nlp.stanford.edu/robvoigt/) (robvoigt@stanford.
 
 ## Slides
 * [Week 1 - Fri / Lesson 0: Introduction to NLP](https://docs.google.com/presentation/d/1t4fAHT-oCHGCkLXqqHSLu0kzJzADQD7G8JiaQdxPOdA/edit?usp=sharing)
-* [Week 2 - Tue / Lesson 1: Rule-based classifiers](https://docs.google.com/presentation/d/1aWweVcIf1XBHu8okf5k3d_KXqObxHHx9W_ljCdm2jyw/edit?usp=sharing)
-* [Week 2 - Wed / Lesson 2: Evaluation metrics](https://docs.google.com/presentation/d/1nfideUIXIcslK9eLNrtxVGyaJG8KJlq1heI-A4YJn_w/edit?usp=sharing) (Exercise sheet [here](https://docs.google.com/document/d/1IyynNr2hVJY8LOzFEBKRXNJ71usqfPQuR81lrFjEcPc/edit?usp=sharing))
-* [Week 2 - Thu / Lesson 3: Probability theory and Bayes rule](https://docs.google.com/presentation/d/1nOEo5AKcdwBjdhNLj1yP0CTw508H6I34BjU6yxRZ9ck/view) 
+* [Week 2 - Tue / Lesson 1: Rule-based classifiers](https://docs.google.com/presentation/d/1WG662N7UeeVViv-8UxWuwPHluyh2ZNL1DJmM55cydRs/edit?usp=sharing)
+* [Week 2 - Wed / Lesson 2: Evaluation metrics](https://docs.google.com/presentation/d/1J0wa9ZLNve1Ndd-GniI8B2T1K6NsId5Y__REYndH9Ew/edit?usp=sharing) (Exercise sheet [here](https://docs.google.com/document/d/1IyynNr2hVJY8LOzFEBKRXNJ71usqfPQuR81lrFjEcPc/edit?usp=sharing))
+* [Week 2 - Thu / Lesson 3: Probability theory and Bayes rule](https://drive.google.com/open?id=117pmZws2XxXOu68vnezh7y4LKCYNHrar6gk_Svap_rc) 
 (Exercise sheet [here](https://docs.google.com/document/d/1u8pY6YicTEa3xZI6QxcPfrZ8A9mIJYxjA4iL6hpSB9c/edit?usp=sharing))
-* [Week 2 - Fri / Lesson 4: Naive Bayes classifier](https://docs.google.com/presentation/d/1EM6BmNpjo5QdymzkUUfWdwNxuIw-AZtzGjswcW-ioMY/edit?usp=sharing)
-* [Week 3 - Mon / Lesson 5: More NLP](https://docs.google.com/presentation/d/1biWvkfLANZWiwvePX7WWcKI5JNNMJ9XSewZDwyHmCC8/edit?usp=sharing)
-* [Week 3 - Tue / Lesson 6: Naive Bayes classifier for Twitter project](https://docs.google.com/presentation/d/1qIdeh8nYIOHztvkK5DfN-86VX9RHJiV7CAOKf7MbL8M/edit?usp=sharing)
-* [Week 3 - Wed / Lesson 7: Neural Networks](https://docs.google.com/presentation/d/1D23sp1JVwPbORXlnQ8D7fpePdxjNSuoGO0IfZLKT4zY/edit?usp=sharing)
+* [Week 2 - Fri / Lesson 4: Naive Bayes classifier](https://docs.google.com/presentation/d/1nVvoMwcDtgLSxXEdbRpLX0EbK7Yg_BFTC1WjTu7mSrk/edit?usp=sharing)
+* [Week 3 - Mon / Lesson 5: More NLP](https://drive.google.com/open?id=1cBbLRibJG0drd8qnxQtt0yh08DGq0x5IosomjnDj2mc)
+* [Week 3 - Tue / Lesson 6: Naive Bayes classifier for Twitter project](https://drive.google.com/open?id=1cBbLRibJG0drd8qnxQtt0yh08DGq0x5IosomjnDj2mc)
+* [Week 3 - Wed / Lesson 7: Neural Networks](https://docs.google.com/presentation/d/1X45IZGTbvPyn41mZP9yA2y8y1NarhzDXWZbiATSRYuc/edit?usp=sharing)
 
 ## Other materials
 * [Day 1: Data exploration spreadsheet](https://docs.google.com/spreadsheets/d/1EC83i5jhi5TjQTT4XN0v4CScZcie9WloASPGSEdJ2mY/edit?usp=sharing)
