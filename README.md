@@ -21,14 +21,14 @@ Instructors: [Rob Voigt](https://nlp.stanford.edu/robvoigt/) (robvoigt@stanford.
 ## Other materials
 * [Day 1: Data exploration spreadsheet](https://docs.google.com/spreadsheets/d/1EC83i5jhi5TjQTT4XN0v4CScZcie9WloASPGSEdJ2mY/edit?usp=sharing)
 * [Naive Bayes cheat sheet](https://docs.google.com/document/d/1Z6WnbCQYtOsaoFAZc4VdXtCc9edGIlPBX9CulSwBVgo/edit)
-* [Next Steps: Resources for after SAILORS](https://docs.google.com/document/d/1_byDijN6Mc0Gk7phL5e5dmVuhyMkkZDNoEsXXvnfzPw/edit?usp=sharing)
+* [Next Steps: Resources for after AI4ALL](https://docs.google.com/document/d/1_byDijN6Mc0Gk7phL5e5dmVuhyMkkZDNoEsXXvnfzPw/edit?usp=sharing)
 
 
 ## Instructions for running the notebooks
 
 1. Install Anaconda.
     
-    Anaconda is a python distribution that makes it really easy to install additional python packages and manage different Python versions. You can download Anaconda from https://www.continuum.io/. Make sure to download the Python 2.7 version! This should also automatically install Jupyter notebook, which you'll need to run the notebooks.
+    Anaconda is a python distribution that makes it really easy to install additional python packages and manage different Python versions. You can download Anaconda from https://www.anaconda.com/download/. Make sure to download the Python 3.6 version! This should also automatically install Jupyter notebook, which you'll need to run the notebooks.
 
 2. Install numpy and nltk:
     
@@ -43,7 +43,7 @@ Instructors: [Rob Voigt](https://nlp.stanford.edu/robvoigt/) (robvoigt@stanford.
     Open a Terminal window and type 
     
     ```
-    git clone https://github.com/abisee/sailors2017
+    git clone https://github.com/ClaraBing/AI4ALL2018
     ```
     
     This will copy all the notebooks to your computer.
@@ -53,7 +53,7 @@ Instructors: [Rob Voigt](https://nlp.stanford.edu/robvoigt/) (robvoigt@stanford.
    In the same Terminal window, type
 
    ```
-   cd sailors2017
+   cd AI4ALL2018
    ```
 
 5. Download the tokenizer models:
@@ -74,4 +74,4 @@ Instructors: [Rob Voigt](https://nlp.stanford.edu/robvoigt/) (robvoigt@stanford.
 
 ## Accessing the completed versions of the notebooks
 
-The directory `filled` contains versions of the iPython notebooks with the solutions filled in. If you would like to run these, you need to copy them to the main directory (i.e. `sailors2017`), overwriting the blank versions of the notebooks that are currently there. Then run `jupyter notebook` and you should be able to access the completed versions of the notebooks.
+The directory `filled` contains versions of the iPython notebooks with the solutions filled in, which will be released at the end of each day. If you would like to run these, you need to copy them to the main directory (i.e. `AI4ALL2018`), overwriting the blank versions of the notebooks that are currently there. Then run `jupyter notebook` and you should be able to access the completed versions of the notebooks.
