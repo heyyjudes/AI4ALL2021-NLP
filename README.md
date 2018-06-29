@@ -1,9 +1,9 @@
 # Tweet Classification for Disaster Relief
 
-This is the homepage for the [SAILORS 2017](http://sailors.stanford.edu/) NLP research project. 
+This is the homepage for the [AI4ALL 2018](http://ai4all.stanford.edu/) NLP research project. 
 Here you can find links to all class materials used for the research project.
 
-Instructors: [Abi See](http://cs.stanford.edu/people/abisee/) (abisee@stanford.edu), [Sebastian Schuster](http://sebschu.com/) (sebschu@stanford.edu)
+Instructors: [Rob Voigt](https://nlp.stanford.edu/robvoigt/) (robvoigt@stanford.edu), [Bingbin Liu](https://www.linkedin.com/in/bingbinliu/) (bingbin@stanford.edu)
 
 ## Slides
 * [Day 1: Introduction to NLP](https://docs.google.com/presentation/d/1ETVn3Zpqy7Cmv7LuqG-kJ2zwR7Yz8BQUMgnzTkC6fwY/edit?usp=sharing)
