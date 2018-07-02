@@ -13,7 +13,7 @@ Instructors: [Rob Voigt](https://nlp.stanford.edu/robvoigt/) (robvoigt@stanford.
 (Exercise sheet [here](https://docs.google.com/document/d/1u8pY6YicTEa3xZI6QxcPfrZ8A9mIJYxjA4iL6hpSB9c/edit?usp=sharing))
 * [Week 2 - Fri / Lesson 4: Naive Bayes classifier](https://docs.google.com/presentation/d/1nVvoMwcDtgLSxXEdbRpLX0EbK7Yg_BFTC1WjTu7mSrk/edit?usp=sharing)
 * [Week 3 - Mon / Lesson 5: More NLP](https://drive.google.com/open?id=1cBbLRibJG0drd8qnxQtt0yh08DGq0x5IosomjnDj2mc)
-* [Week 3 - Tue / Lesson 6: Naive Bayes classifier for Twitter project](https://drive.google.com/open?id=1cBbLRibJG0drd8qnxQtt0yh08DGq0x5IosomjnDj2mc)
+* [Week 3 - Tue / Lesson 6: Naive Bayes classifier for Twitter project](https://drive.google.com/open?id=1H2ty14VzCNaNC8GX1kYyveuqoRsAyfOAlSJHz3nFW8Q)
 * [Week 3 - Wed / Lesson 7: Neural Networks](https://docs.google.com/presentation/d/1X45IZGTbvPyn41mZP9yA2y8y1NarhzDXWZbiATSRYuc/edit?usp=sharing)
 
 ## Other materials
