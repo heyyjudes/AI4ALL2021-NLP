@@ -54,18 +54,28 @@ def read_csv(path):
        assert need_or_resource in need_or_resource_labels
        if need_or_resource == "N/A":
          assert category == "None"
-       assert tweetId not in data.keys()
+       #assert tweetId not in data.keys()
        data[tweetId] = Tweet(tweetText, category, need_or_resource)
    data = data.values() # list of Tweets
    return data
 
 
 def read_data(train_path = 'data/labeled-data-singlelabels-train.csv',
-              test_path = 'data/labeled-data-singlelabels-test.csv'):
+                    test_path = 'data/labeled-data-singlelabels-test.csv'):
   """Returns two lists of tweets: the train set and the test set"""
   train_tweets = read_csv(train_path)
   test_tweets = read_csv(test_path)
   return train_tweets, test_tweets
+
+def read_sandy_data(train_path = 'data/labeled-data-singlelabels-train.csv',
+                    test_path = 'data/labeled-data-singlelabels-test.csv'):
+  """Returns two lists of tweets: the train set and the test set"""
+  return read_data(train_path, test_path)
+
+def read_haiti_data(train_path = 'data/haiti_train.csv',
+                    test_path = 'data/haiti_test.csv'):
+  """Returns two lists of tweets: the train set and the test set"""
+  return read_data(train_path, test_path)
 
 
 def show_confusion_matrix(predictions):
