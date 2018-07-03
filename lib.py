@@ -17,7 +17,7 @@ need_or_resource_labels = ['need', 'resource', 'N/A']
 
 class Tweet(object):
   def __init__(self, tweetSurfaceForm, category, need_or_resource):
-    if isinstance(tweetSurfaceForm, unicode):
+    if isinstance(tweetSurfaceForm, str):
       self.tokenList = word_tokenize(tweetSurfaceForm)
     else:
       self.tokenList = word_tokenize(tweetSurfaceForm.decode('utf-8','ignore'))
@@ -38,7 +38,8 @@ class Tweet(object):
     return " ".join(self.tokenList)
 
   def __str__(self):
-    return unicode(self).encode('utf-8')
+    # return unicode(self).encode('utf-8')
+    return " ".join(self.tokenList)
 
   def __repr__(self):
       return self.__str__()
@@ -56,7 +57,7 @@ def read_csv(path):
          assert category == "None"
        #assert tweetId not in data.keys()
        data[tweetId] = Tweet(tweetText, category, need_or_resource)
-   data = data.values() # list of Tweets
+   data = list(data.values()) # list of Tweets
    return data
 
 
@@ -114,7 +115,7 @@ def show_tweets(tweets, search_term=None):
   if search_term is not None:
     tweets = [t for t in tweets if search_term in str(t).lower()]
   columns = ['Text', 'Category', 'Need or resource']
-  data = [[unicode(t), t.category, t.need_or_resource] for t in tweets]
+  data = [[str(t), t.category, t.need_or_resource] for t in tweets]
   pandas.set_option('display.max_colwidth', -1)
   df = pandas.DataFrame(data, columns=columns)
   s = df.style.applymap(class2color_style)\
@@ -128,7 +129,7 @@ def show_predictions(predictions, show_mistakes_only=False):
   if show_mistakes_only:
     predictions = [(t,p) for (t,p) in predictions if t.category!=p]
   columns = ['Text', 'True category', 'Predicted category']
-  data = [[unicode(t), t.category, predicted_category] for (t,predicted_category) in predictions]
+  data = [[str(t), t.category, predicted_category] for (t,predicted_category) in predictions]
   pandas.set_option('display.max_colwidth', -1)
   df = pandas.DataFrame(data, columns=columns)
   s = df.style.applymap(class2color_style)\
@@ -154,14 +155,14 @@ def most_discriminative(tweets, token_probs, prior_probs):
     token2dist[token] = dist
 
   # for each category print the tokens that maximize P(C|token) (normalized by P(token))
-  print "MOST DISCRIMINATIVE TOKENS: \n"
+  print("MOST DISCRIMINATIVE TOKENS: \n")
   for c in categories:
     probs = [(token,dist[c]) for token,dist in token2dist.iteritems()]
     probs = sorted(probs, key=lambda x: x[1], reverse=True)
-    print "{0:20} {1:10}".format("TOKEN", "P(%s|token)"%c)
+    print("{0:20} {1:10}".format("TOKEN", "P(%s|token)"%c))
     for (token,p) in probs[:10]:
-        print "{0:20} {1:.4f}".format(token.encode('utf8'),p)
-    print ""
+        print("{0:20} {1:.4f}".format(token.encode('utf8'),p))
+    print("")
 
 
 def get_category_f1(predictions, c):
@@ -194,12 +195,12 @@ def get_category_f1(predictions, c):
       recall = true_positives*100 / (true_positives + false_negatives)
       f1 = 2*precision*recall / (precision + recall)
 
-  print c
-  print "Precision: ", precision
-  print "Recall: ", recall
-  print "F1: ", f1
-  print ""
-#     print "Class %s: precision %.2f, recall %.2f, F1 %.2f" % (c, precision, recall, f1)
+  print(c)
+  print("Precision: ", precision)
+  print("Recall: ", recall)
+  print("F1: ", f1)
+  print("")
+#     p(rint "Class %s: precision %.2f, recall %.2f, F1 %.2f" % (c, precision, recall, f1)
 
   return f1
 
@@ -212,7 +213,7 @@ def evaluate(predictions):
     average_f1 += f1
 
   average_f1 /= len(categories)
-  print "Average F1: ", average_f1
+  print("Average F1: ", average_f1)
 
 
 def calc_probs(tweets, c):
