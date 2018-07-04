@@ -93,6 +93,11 @@ def show_confusion_matrix(predictions):
   display(HTML(df.to_html()))
 
 
+def disp_confusion_matrix(conf_mat):
+  df = pandas.DataFrame(data=conf_mat, columns=categories, index=categories)
+  display(HTML(df.to_html()))  
+
+
 def class2color_style(s):
   class2color = {
     'Energy' : 'red',
