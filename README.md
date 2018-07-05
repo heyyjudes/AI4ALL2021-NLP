@@ -18,6 +18,7 @@ Instructors: [Rob Voigt](https://nlp.stanford.edu/robvoigt/) (robvoigt@stanford.
 
 ## Other materials
 * [Lesson 0: Data exploration spreadsheet](https://docs.google.com/spreadsheets/d/1EC83i5jhi5TjQTT4XN0v4CScZcie9WloASPGSEdJ2mY/edit?usp=sharing)
+* [Python cheat sheet](https://docs.google.com/presentation/d/1ToMvqhFXC9XJgsqqSDhzhaIaSqWxnYAdp5sDYrfmj-I/edit?usp=sharing): feel free put comments / things you'd like to know about in the slides!
 * [Naive Bayes cheat sheet](https://docs.google.com/document/d/1Z6WnbCQYtOsaoFAZc4VdXtCc9edGIlPBX9CulSwBVgo/edit)
 * [Next Steps: Resources for after AI4ALL](https://docs.google.com/document/d/1_byDijN6Mc0Gk7phL5e5dmVuhyMkkZDNoEsXXvnfzPw/edit?usp=sharing)
 
