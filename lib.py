@@ -445,6 +445,10 @@ def classify_nb(tweet, prior_probs, token_probs):
     Output:
         string equal to most-likely category for this tweet
     """
+    matches = set(['energy', 'electricity', 'electrical', 'generator', 'generators', 'blackout', 'power'])
+    for token in tweet.tokenSet:
+      if token.lower() in matches:
+        return 'Energy'
     log_posteriors = {c: get_log_posterior_prob(tweet, prior_probs[c], token_probs[c]) for c in categories}
     return max(log_posteriors.keys(), key=lambda c:log_posteriors[c])
 
