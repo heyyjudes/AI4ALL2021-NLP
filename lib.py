@@ -7,6 +7,8 @@ import numpy as np
 from collections import Counter
 from nltk.tokenize import word_tokenize
 from IPython.display import HTML, display
+import matplotlib
+from matplotlib import pyplot as plt
 
 SMOOTH_CONST = 0.001 # we want this to be smaller than 1/n where n is the size of the largest training category. that way, any word that has appeared exactly once (with category c) in training will still have a larger probability for category c, than any other category c'
 TRAIN_SPLIT = 0.8
@@ -79,23 +81,94 @@ def read_haiti_data(train_path = 'data/haiti_train.csv',
   return read_data(train_path, test_path)
 
 
+# def show_confusion_matrix(predictions):
+#   """Displays a confusion matrix as a HTML table.
+#   Rows are true label, columns are predicted label.
+#   predictions is a list of (tweet, predicted_category) pairs"""
+#   num_categories = len(categories)
+#   conf_mat = np.zeros((num_categories, num_categories), dtype=np.int32)
+#   for (tweet,predicted_category) in predictions:
+#     gold_idx = categories.index(tweet.category)
+#     predicted_idx = categories.index(predicted_category)
+#     conf_mat[gold_idx, predicted_idx] += 1
+#   df = pandas.DataFrame(data=conf_mat, columns=categories, index=categories)
+#   display(HTML(df.to_html()))
+
 def show_confusion_matrix(predictions):
-  """Displays a confusion matrix as a HTML table.
-  Rows are true label, columns are predicted label.
-  predictions is a list of (tweet, predicted_category) pairs"""
+  conf_mat = calc_confusion_matrix(predictions)
+  disp_confusion_matrix(conf_mat)
+  return conf_mat
+
+def calc_confusion_matrix(predictions):
   num_categories = len(categories)
   conf_mat = np.zeros((num_categories, num_categories), dtype=np.int32)
   for (tweet,predicted_category) in predictions:
     gold_idx = categories.index(tweet.category)
     predicted_idx = categories.index(predicted_category)
     conf_mat[gold_idx, predicted_idx] += 1
-  df = pandas.DataFrame(data=conf_mat, columns=categories, index=categories)
-  display(HTML(df.to_html()))
-
+  return conf_mat
 
 def disp_confusion_matrix(conf_mat):
   df = pandas.DataFrame(data=conf_mat, columns=categories, index=categories)
   display(HTML(df.to_html()))  
+
+  n_rows, n_cols = conf_mat.shape
+  for r in range(n_rows):
+    cnt = np.sum(conf_mat[r])
+    for c in range(n_cols):
+      conf_mat[r,c] *= 256 / cnt
+
+  plt.imshow(conf_mat, cmap=plt.cm.Blues)
+
+
+def class_pie_chart(tweets):
+  tweet_categories = [tweet.category for tweet in tweets]
+  tweet_cnt = Counter(tweet_categories)
+  # total_cnt = sum(tweet_cnt.values())
+  sizes, labels = [], []
+  for category in sorted(tweet_cnt.keys()):
+    sizes.append(tweet_cnt[category])
+    labels.append(category)
+  colors = ['yellowgreen', 'gold', 'lightcoral', 'gray', 'lightskyblue']
+  plt.pie(sizes, labels=labels, autopct='%1.1f%%', colors=colors)
+  plt.axis('equal')
+  plt.show()
+
+
+def metric_bar_chart(categories, precisions, recalls, f1s):
+  """
+  results:
+    - keys = categories
+    - each value: a list of 3 numbers: recall, precision, f1
+  """
+  # create plot
+  fig, ax = plt.subplots()
+  index = np.arange(len(categories))
+  bar_width = 0.2
+  opacity = 0.8
+   
+  precision_bar = plt.bar(index, precisions, bar_width,
+                   alpha=opacity,
+                   color='yellowgreen',
+                   label='Precision')
+   
+  recall_bar = plt.bar(index + bar_width, recalls, bar_width,
+                   alpha=opacity,
+                   color='gold',
+                   label='Recall')
+  f1_bar = plt.bar(index + 2*bar_width, f1s, bar_width,
+                   alpha=opacity,
+                   color='lightskyblue',
+                   label='F1')
+   
+  plt.xlabel('Categories')
+  plt.ylabel('Metrics')
+  plt.title('Performance by Category')
+  plt.xticks(index + 1.5*bar_width, categories)
+  plt.legend()
+   
+  plt.tight_layout()
+  plt.show()
 
 
 def class2color_style(s):
@@ -207,18 +280,24 @@ def get_category_f1(predictions, c):
   print("")
 #     p(rint "Class %s: precision %.2f, recall %.2f, F1 %.2f" % (c, precision, recall, f1)
 
-  return f1
+  return precision, recall, f1
 
 
-def evaluate(predictions):
+def evaluate(predictions, has_return=False):
   """Calculate average F1"""
   average_f1 = 0
+  precisions, recalls, f1s = [], [], []
   for c in categories:
-    f1 = get_category_f1(predictions, c)
+    precision, recall, f1 = get_category_f1(predictions, c)
+    precisions.append(precision)
+    recalls.append(recall)
+    f1s.append(f1)
     average_f1 += f1
 
   average_f1 /= len(categories)
   print("Average F1: ", average_f1)
+  if has_return:
+    return categories, precisions, recalls, f1s
 
 
 def calc_probs(tweets, c):
@@ -240,6 +319,92 @@ def calc_probs(tweets, c):
             feature_counts[feature] += 1
     feature_probs = Counter({feature: float(count)/num_tweets_about_c for feature,count in feature_counts.items()})
     return prob_c, feature_probs
+
+
+def calc_probs_single(tweets, c, stop_words=[], stemmer=None, lmtzr=None):
+    """
+    Input:
+        tweets: a list of tweets
+        c: a string representing a category; one of "Energy", "Food", "Medical", "Water", "None". 
+    Returns:
+        prob_c: the prior probability of category c
+        token_probs: a Counter mapping each token to P(token|category c)
+    """
+    assert stemmer is None or lmtzr is None, 'Stemmer and lemmatizer cannot be provided at the same time. Please choose at most one.'
+    num_tweets = len(tweets)
+    num_tweets_about_c = sum([tweet.category == c for tweet in tweets])
+    
+    prob_c = num_tweets_about_c / num_tweets
+    
+    token_counts = Counter()
+    for tweet in tweets:
+        # print(tweet.category)
+        if tweet.category == c:
+            for token in tweet.tokenSet:
+                if token in stop_words:
+                    continue
+                if stemmer is not None:
+                  token = stemmer.stem(token)
+                elif lmtzr is not None:
+                  token = lmtzr.lemmatize(token)
+                token_counts[token] += 1
+
+    token_probs = Counter()
+    for token in token_counts:
+        token_probs[token] = token_counts[token] / num_tweets_about_c
+    
+    return prob_c, token_probs
+
+def get_posterior_prob_single(tweet, prob_c, token_probs, stop_words=[], stemmer=None, lmtzr=None, unseen_prob=1e-5):
+    """Calculate the posterior P(c|tweet). 
+    (Actually, calculate something proportional to it).
+    
+    Inputs:
+        tweet: a tweet
+        prob_c: the prior probability of category c
+        token_probs: a Counter mapping each token P(token|c)
+    Return:
+        The posterior P(c|tweet).
+    """
+    assert stemmer is None or lmtzr is None, 'Stemmer and lemmatizer cannot be provided at the same time. Please choose at most one.'
+
+    posterior = np.log(prob_c)
+    
+    for token in tweet.tokenSet:
+        if token in stop_words:
+          continue
+
+        if stemmer is not None:
+          token = stemmer.stem(token)
+        elif lmtzr is not None:
+          token = lmtzr.lemmatize(token)
+
+        prob = token_probs[token]
+        if prob == 0:
+          prob = unseen_prob
+        posterior += np.log(prob)
+
+    return posterior
+
+def classify_nb_single(tweet, probs, stop_words=[], stemmer=None, lmtzr=None):
+    """Classifies a tweet. Calculates the posterior P(c|tweet) for each category c, 
+    and returns the category with largest posterior.
+    Input:
+        tweet
+    Output:
+        string equal to most-likely category for this tweet
+    """
+    assert stemmer is None or lmtzr is None, 'Stemmer and lemmatizer cannot be provided at the same time. Please choose at most one.'
+
+    cat_probs = []
+    for category in probs:
+      prior_prob, token_prob = probs[category]
+      posterior = get_posterior_prob_single(tweet, prior_prob, token_prob, stop_words, stemmer=stemmer, lmtzr=lmtzr)
+      cat_probs.append((category, posterior))
+
+    sorted_classes = sorted(cat_probs, key=lambda x:x[1])
+    max_class = sorted(cat_probs, key=lambda x:x[1])[-1][0]
+    return max_class
 
 
 def learn_nb(tweets):
