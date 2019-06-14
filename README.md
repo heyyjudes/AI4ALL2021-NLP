@@ -50,7 +50,7 @@ We will go through this together on July 3rd, but feel free to start on your own
     Open a Terminal window and type 
     
     ```
-    git clone https://github.com/ClaraBing/AI4ALL2018
+    git clone https://github.com/lucy3/AI4ALL2019
     ```
     
     This will copy all the notebooks to your computer.
@@ -60,7 +60,7 @@ We will go through this together on July 3rd, but feel free to start on your own
    In the same Terminal window, type
 
    ```
-   cd AI4ALL2018
+   cd AI4ALL2019
    ```
 
 5. Download the tokenizer models:
@@ -81,4 +81,4 @@ We will go through this together on July 3rd, but feel free to start on your own
 
 ## Accessing the completed versions of the notebooks
 
-The directory `filled` contains versions of the iPython notebooks with the solutions filled in, which will be released at the end of each day. If you would like to run these, you need to copy them to the main directory (i.e. `AI4ALL2018`), overwriting the blank versions of the notebooks that are currently there. Then run `jupyter notebook` and you should be able to access the completed versions of the notebooks.
+The directory `filled` contains versions of the iPython notebooks with the solutions filled in, which will be released at the end of each day. If you would like to run these, you need to copy them to the main directory (i.e. `AI4ALL2019`), overwriting the blank versions of the notebooks that are currently there. Then run `jupyter notebook` and you should be able to access the completed versions of the notebooks.
