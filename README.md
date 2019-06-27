@@ -32,7 +32,7 @@ Here you can find links to all class materials used for the research project.
 
 
 ## Instructions for running the notebooks
-We will go through this together on July 3rd, but feel free to start on your own! :) 
+We will go through this together on June 27, but feel free to start on your own! :) 
 1. Install Anaconda.
     
     Anaconda is a python distribution that makes it really easy to install additional python packages and manage different Python versions. You can download Anaconda from https://www.anaconda.com/download/. Make sure to download the Python 3.6 version! This should also automatically install Jupyter notebook, which you'll need to run the notebooks.
