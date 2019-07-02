@@ -24,7 +24,7 @@ Here you can find links to all class materials used for the research project.
 
 ## Other materials
 * [Lesson 0: Data exploration spreadsheet](https://docs.google.com/spreadsheets/d/1EC83i5jhi5TjQTT4XN0v4CScZcie9WloASPGSEdJ2mY/edit?usp=sharing)
-* [Lucy's NLP playground](https://docs.google.com/document/d/1sQRM3exnko5kmz3yqWHN3eQ6Oc0-fqrf4LKVWpUGPuQ/edit?usp=sharing) has interactive material to peruse for fun
+* [Our NLP playground](https://docs.google.com/document/d/1sQRM3exnko5kmz3yqWHN3eQ6Oc0-fqrf4LKVWpUGPuQ/edit?usp=sharing) has interactive material to peruse for fun
 * [Lecture on text processing](https://web.stanford.edu/class/cs124/lec/textprocessingboth.pdf) (e.g. regular expression, tokenization, lemmatization/stemming) from [Stanford CS 124](http://web.stanford.edu/class/cs124/#schedule) by Professor [Dan Jurafsky](https://web.stanford.edu/~jurafsky/)
 * [Unix for Poets](https://web.stanford.edu/class/cs124/kwc-unix-for-poets.pdf) has more details on text processing
 * [Python cheat sheet](https://docs.google.com/presentation/d/1ToMvqhFXC9XJgsqqSDhzhaIaSqWxnYAdp5sDYrfmj-I/edit?usp=sharing): feel free put comments / things you'd like to know about in the slides!
