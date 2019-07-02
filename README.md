@@ -19,7 +19,7 @@ Here you can find links to all class materials used for the research project.
 * [Week 3 - Tues / Lesson 7: Neural Networks](https://docs.google.com/presentation/d/1IalgO0s9w3-hwvMcm9ii9Vv9kJ3v5UHOUL95ZqG8O2c/edit?usp=sharing)
 
 ### Presentation
-* 5 minutes talk at the banquet (we will add your outline here) 
+* [5 minutes talk at the banquet](https://docs.google.com/document/d/1Sc4ZZ1rotK1DGtoZVU9lgTEhne6EqQ2DXU1tchKiAvE/edit?usp=sharing)
 
 
 ## Other materials
