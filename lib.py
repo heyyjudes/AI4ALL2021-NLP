@@ -355,7 +355,7 @@ def calc_probs_single(tweets, c, stop_words=[], stemmer=None, lmtzr=None):
     
     return prob_c, token_probs
 
-def get_posterior_prob_single(tweet, prob_c, token_probs, stop_words=[], stemmer=None, lmtzr=None, unseen_prob=1e-5):
+def get_posterior_prob_single(tweet, prob_c, token_probs, stop_words=[], stemmer=None, lmtzr=None, unseen_prob=SMOOTH_CONST):
     """Calculate the posterior P(c|tweet). 
     (Actually, calculate something proportional to it).
     
