@@ -46,7 +46,23 @@ class Tweet(object):
   def __repr__(self):
       return self.__str__()
 
-
+def preprocess_tweet(tweet, stop_words=[], stemmer=None, lmtzr=None): 
+    assert stemmer is None or lmtzr is None, 'Stemmer and lemmatizer cannot be provided at the same time. Please choose at most one.'
+    new_tokenList = []
+    for token in tweet.tokenList: 
+        if token in stop_words:
+            continue
+        if stemmer is not None:
+          token = stemmer.stem(token)
+        elif lmtzr is not None:
+          token = lmtzr.lemmatize(token)
+        new_tokenList.append(token)
+    tweet.tokenList = new_tokenList
+    tweet.tokenSet = set(tweet.tokenList)
+    tweet._bigramList = [(tweet.tokenList[idx], tweet.tokenList[idx+1]) for idx in range(len(tweet.tokenList)-1)]
+    tweet._featureSet = set(tweet._bigramList).union(tweet.tokenSet)
+    return tweet
+    
 def read_csv(path):
    data = {}
    with open(path) as f:
@@ -355,7 +371,7 @@ def calc_probs_single(tweets, c, stop_words=[], stemmer=None, lmtzr=None):
     
     return prob_c, token_probs
 
-def get_posterior_prob_single(tweet, prob_c, token_probs, stop_words=[], stemmer=None, lmtzr=None, unseen_prob=1e-5):
+def get_posterior_prob_single(tweet, prob_c, token_probs, stop_words=[], stemmer=None, lmtzr=None, unseen_prob=SMOOTH_CONST):
     """Calculate the posterior P(c|tweet). 
     (Actually, calculate something proportional to it).
     
