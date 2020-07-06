@@ -1,11 +1,9 @@
 # Tweet Classification for Disaster Relief
 
-This is the homepage for the [AI4ALL 2019](http://ai4all.stanford.edu/) NLP research project. 
+This is the homepage for the [AI4ALL 2020](http://ai4all.stanford.edu/) NLP research project. 
 Here you can find links to all class materials used for the research project.
 
-2018 Instructors: [Rob Voigt](https://nlp.stanford.edu/robvoigt/) (robvoigt@stanford.edu), [Bingbin Liu](https://www.linkedin.com/in/bingbinliu/) (bingbin@stanford.edu)
-
-2019 Instructors: Lucy Li (lucy3@stanford.edu) & Christina Yuan (cjyuan@stanford.edu)
+2020 Instructors: Elias Wang (eliwang@stanford.edu) & Marion Lepert (lepertm@stanford.edu)
 
 ## Slides
 * [Week 1 - Thurs / Lesson 0: Introduction to NLP](https://docs.google.com/presentation/d/1S4bf1l4-g4BKkWFPutNyqi2YKJMoieTJHRfTTvB3edk/edit?usp=sharing)
