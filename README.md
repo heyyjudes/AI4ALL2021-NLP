@@ -6,18 +6,31 @@ Here you can find links to all class materials used for the research project.
 2020 Instructors: Elias Wang (eliaszwang@stanford.edu) & Marion Lepert (lepertm@stanford.edu)
 
 ## Slides
-* [Week 1 - Thurs / Lesson 0: Introduction to NLP](https://docs.google.com/presentation/d/1S4bf1l4-g4BKkWFPutNyqi2YKJMoieTJHRfTTvB3edk/edit?usp=sharing)
-* [Week 1 - Fri / Lesson 1: Rule-based classifiers](https://docs.google.com/presentation/d/1j1WkNvZBv5ularvSoY8r5doCL53Y4hdcIW8Y82afajE/edit?usp=sharing) ([Python cheat sheet](https://docs.google.com/presentation/d/1ToMvqhFXC9XJgsqqSDhzhaIaSqWxnYAdp5sDYrfmj-I/edit?usp=sharing))
-* [Week 2 - Tues / Lesson 2: Evaluation metrics](https://docs.google.com/presentation/d/16a3Lf7Mp-_3UjEB_cmFlofRBbE2ONFm1BJkuzOgeRx0/edit?usp=sharing) (Exercise sheet [here](https://docs.google.com/document/d/1IyynNr2hVJY8LOzFEBKRXNJ71usqfPQuR81lrFjEcPc/edit?usp=sharing))
-* [Week 2 - Wed / Lesson 3: Probability theory and Bayes rule](https://docs.google.com/presentation/d/18h0QDt5jQGx74L0OMbqjL24sIt_ooMCeVI9pfaDan1Q/edit?usp=sharing) 
-(Exercise sheet [here](https://docs.google.com/document/d/1slPFRt_VSxUox1GLy8rlnkSOB3LXFIIBNAobdp8MqGs/edit?usp=sharing))
-* [Week 2 - Thurs / Lesson 4: Naive Bayes classifier](https://docs.google.com/presentation/d/10ucgKKkkEdG2OLIsDuRnQBGkeDIJTIayvxGl06E_mFg/edit?usp=sharing)
-* [Week 2 - Fri / Lesson 5: More NLP](https://docs.google.com/presentation/d/1fWRKDyyQIqH5s98iB0_HrN90TlMbE-W1PHLGfHOUMYM/edit?usp=sharing)
-* [Week 3 - Mon / Lesson 6: Naive Bayes classifier for Twitter project](https://docs.google.com/presentation/d/1q3KTSEHeq4btUdQ7d3rYVBeqgCb8KWKRvQrNebnNHws/edit?usp=sharing)
-* [Week 3 - Tues / Lesson 7: Neural Networks](https://docs.google.com/presentation/d/1IalgO0s9w3-hwvMcm9ii9Vv9kJ3v5UHOUL95ZqG8O2c/edit?usp=sharing)
+* Week 1
+    * [Monday: Introduction to Artificial Intelligence](https://docs.google.com/presentation/d/1tugMjyienZ0WhuRi0AKXMGgql2lRoZS-JeoPhIde33E/edit?usp=sharing) 
+    * Tuesday: Introduction to Machine Learning 
+    * Wednesday: Introduction to NLP 
+    * Thursday: Data and Bias 
+    * Friday: Clustering 
+ * Week 2 
+    * Monday: Bayes' Rule 
+    * Tuesday: Naive Bayes 
+    * Wednesday: Evaluation Metrics
+    * Thursday: Word processing 
+    * Friday: Regression 
+ * Week 3
+    * Monday: Classification 
+    * Tuesday: Artificial Neural Networks 
+    * Wednesday: More NLP 
+    * Thursday: Wrap up and presentation prep 
+    * Friday: Presentations!
 
-### Presentation
-* [5 minutes talk at the banquet](https://docs.google.com/document/d/1Sc4ZZ1rotK1DGtoZVU9lgTEhne6EqQ2DXU1tchKiAvE/edit?usp=sharing)
+## Activity Notebooks 
+* [Python part 1](https://colab.research.google.com/drive/16u1R4a_esZ1B6993HoUlZPdgKiFspVDs?usp=sharing)
+
+
+### Feedback 
+* Please use this [form](https://forms.gle/VKH8KisGdPigFs2E9) to share any anonymous feedback, thoughts, or concerns with Marion and Eli. 
 
 
 ## Other materials
@@ -31,60 +44,4 @@ Here you can find links to all class materials used for the research project.
 * [Next Steps: Resources for after AI4ALL](https://docs.google.com/document/d/1_byDijN6Mc0Gk7phL5e5dmVuhyMkkZDNoEsXXvnfzPw/edit?usp=sharing)
 
 
-## Instructions for running the notebooks
-We will go through this together on June 27, but feel free to start on your own! :) 
-1. Check if Anaconda is installed, or install Anaconda.
 
-    ```
-    conda
-    ```
-    
-    If you get ```-bash: conda: command not found```, you don't have Anaconda yet!
-    
-    Anaconda is a python distribution that makes it really easy to install additional python packages and manage different Python versions. You can download Anaconda from https://www.anaconda.com/download/. Make sure to download the Python 3.6 version! This should also automatically install Jupyter notebook, which you'll need to run the notebooks.
-
-2. Install numpy and nltk:
-    
-    Open a Terminal window and type 
-    
-    ```
-    conda install nltk numpy pandas
-    ```
-
-3. Copy ("clone") the GitHub repository to your computer:
-
-    Open a Terminal window and type 
-    
-    ```
-    git clone https://github.com/lucy3/AI4ALL2019
-    ```
-    
-    This will copy all the notebooks to your computer.
-
-4. Change into the directory:
-
-   In the same Terminal window, type
-
-   ```
-   cd AI4ALL2019
-   ```
-
-5. Download the tokenizer models:
-
-    Start a Python console by typing `python` in the Terminal window. Then run the following commands:
-
-    ```
-    import nltk
-    nltk.download("punkt")
-    exit()
-    ```
-
-6. Run the jupyter notebook:
-
-    ```
-    jupyter notebook
-    ```
-
-## Accessing the completed versions of the notebooks
-
-The directory `filled` contains versions of the iPython notebooks with the solutions filled in, which will be released at the end of each day. If you would like to run these, you need to copy them to the main directory (i.e. `AI4ALL2019`), overwriting the blank versions of the notebooks that are currently there. Then run `jupyter notebook` and you should be able to access the completed versions of the notebooks.
