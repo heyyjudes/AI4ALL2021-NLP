@@ -27,6 +27,7 @@ Here you can find links to all class materials used for the research project.
 
 ## Activity Notebooks 
 * [Python part 1](https://colab.research.google.com/drive/16u1R4a_esZ1B6993HoUlZPdgKiFspVDs?usp=sharing)
+* [Python part 2](https://colab.research.google.com/drive/1UzT1wjKcLY0p9fCX8o5RiwtOrvRK_vx6?usp=sharing) 
 
 
 ### Feedback 
