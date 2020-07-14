@@ -30,6 +30,7 @@ Here you can find links to all class materials used for the research project.
 * [Python part 2](https://colab.research.google.com/drive/1UzT1wjKcLY0p9fCX8o5RiwtOrvRK_vx6?usp=sharing) 
 * [Python part 3](https://colab.research.google.com/drive/1HUbgP01WAfvCrvzXSEUUB1I1jaDLO3pM?usp=sharing)
 * [Python part 4](https://colab.research.google.com/drive/1is6iBSaVPzjx99AOhVdoRkczaYMq5X-W?usp=sharing)
+* [Rule-based Classifier](https://colab.research.google.com/drive/1BciiWJGb7X06Aj3BPs2NdQofWdSpnDBq?usp=sharing)
 
 
 
