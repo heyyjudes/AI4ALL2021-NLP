@@ -8,7 +8,7 @@ Here you can find links to all class materials used for the research project.
 ## Slides
 * Week 1
     * [Monday: Introduction to Artificial Intelligence](https://docs.google.com/presentation/d/1tugMjyienZ0WhuRi0AKXMGgql2lRoZS-JeoPhIde33E/edit?usp=sharing) 
-    * Tuesday: Introduction to Machine Learning 
+    * [Tuesday: Introduction to Machine Learning](https://docs.google.com/presentation/d/1eWXGlT2LRMd7AFZM5oosDmjMPrQaoVOmGh9ho9YCe_k/edit?usp=sharing) 
     * Wednesday: Introduction to NLP 
     * Thursday: Data and Bias 
     * Friday: Clustering 
@@ -27,6 +27,11 @@ Here you can find links to all class materials used for the research project.
 
 ## Activity Notebooks 
 * [Python part 1](https://colab.research.google.com/drive/16u1R4a_esZ1B6993HoUlZPdgKiFspVDs?usp=sharing)
+* [Python part 2](https://colab.research.google.com/drive/1UzT1wjKcLY0p9fCX8o5RiwtOrvRK_vx6?usp=sharing) 
+* [Python part 3](https://colab.research.google.com/drive/1HUbgP01WAfvCrvzXSEUUB1I1jaDLO3pM?usp=sharing)
+* [Python part 4](https://colab.research.google.com/drive/1is6iBSaVPzjx99AOhVdoRkczaYMq5X-W?usp=sharing)
+* [Rule-based Classifier](https://colab.research.google.com/drive/1BciiWJGb7X06Aj3BPs2NdQofWdSpnDBq?usp=sharing)
+
 
 
 ### Feedback 
