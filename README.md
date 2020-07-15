@@ -9,7 +9,7 @@ Here you can find links to all class materials used for the research project.
 * Week 1
     * [Monday: Introduction to Artificial Intelligence](https://docs.google.com/presentation/d/1tugMjyienZ0WhuRi0AKXMGgql2lRoZS-JeoPhIde33E/edit?usp=sharing) 
     * [Tuesday: Introduction to Machine Learning](https://docs.google.com/presentation/d/1eWXGlT2LRMd7AFZM5oosDmjMPrQaoVOmGh9ho9YCe_k/edit?usp=sharing) 
-    * Wednesday: Introduction to NLP 
+    * [Wednesday: Introduction to NLP](https://docs.google.com/presentation/d/1SqlnGpw-_L44kIhhYGSzRvktsGK9sFVxc7ZBhcUa92E/edit?usp=sharing)
     * Thursday: Data and Bias 
     * Friday: Clustering 
  * Week 2 
