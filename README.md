@@ -31,7 +31,7 @@ Here you can find links to all class materials used for the research project.
 * [Python part 3](https://colab.research.google.com/drive/1HUbgP01WAfvCrvzXSEUUB1I1jaDLO3pM?usp=sharing)
 * [Python part 4](https://colab.research.google.com/drive/1is6iBSaVPzjx99AOhVdoRkczaYMq5X-W?usp=sharing)
 * [Rule-based Classifier](https://colab.research.google.com/drive/1BciiWJGb7X06Aj3BPs2NdQofWdSpnDBq?usp=sharing)
-* [Bias](https://colab.research.google.com/drive/1foWsuHhEt4TRqn0wGzxQGaO3n7GP6w5B?usp=sharing)
+* [Bias](https://colab.research.google.com/drive/1jDTCvvf_W103cnNI5LZtO3Q22o4RPCG1?usp=sharing)
 
 
 
