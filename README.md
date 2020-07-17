@@ -11,7 +11,7 @@ Here you can find links to all class materials used for the research project.
     * [Tuesday: Introduction to Machine Learning](https://docs.google.com/presentation/d/1eWXGlT2LRMd7AFZM5oosDmjMPrQaoVOmGh9ho9YCe_k/edit?usp=sharing) 
     * [Wednesday: Introduction to NLP](https://docs.google.com/presentation/d/1SqlnGpw-_L44kIhhYGSzRvktsGK9sFVxc7ZBhcUa92E/edit?usp=sharing)
     * [Thursday: Data and Bias](https://docs.google.com/presentation/d/1uzYc9VJwdk9_0bltWeKD3v3mk-xUu7N7GLxXCeoYt6g/edit?usp=sharing)
-    * Friday: Clustering 
+    * [Friday: Clustering](https://docs.google.com/presentation/d/17PIP4NrJpMIChHWZSiXeJEXez-2wPMRero0Pf9uuS_Y/edit?usp=sharing) 
  * Week 2 
     * Monday: Bayes' Rule 
     * Tuesday: Naive Bayes 
