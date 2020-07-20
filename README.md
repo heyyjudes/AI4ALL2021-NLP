@@ -33,7 +33,8 @@ Here you can find links to all class materials used for the research project.
 * [Rule-based Classifier](https://colab.research.google.com/drive/1BciiWJGb7X06Aj3BPs2NdQofWdSpnDBq?usp=sharing)
 * [Bias](https://colab.research.google.com/drive/1jDTCvvf_W103cnNI5LZtO3Q22o4RPCG1?usp=sharing)
 * [Clustering](https://colab.research.google.com/drive/193Usn5kdlEyqZsppbnkd-Thl4S0rx3z1?usp=sharing)
-* [Conditional Probability Exercises](https://docs.google.com/document/d/1BCfqvUykb5W6Gs2j1sO3NdJ928cfBfDP9pMsGjAMOcU/edit?usp=sharing) 
+* [Conditional Probability Exercises Part 1](https://docs.google.com/document/d/1BCfqvUykb5W6Gs2j1sO3NdJ928cfBfDP9pMsGjAMOcU/edit?usp=sharing) 
+* [Conditional Probability Exercises Part 2](https://colab.research.google.com/drive/1kVdK8tte1jjEXlCtp7JBurBQ7OiAD-od?usp=sharing)
 
 
 
