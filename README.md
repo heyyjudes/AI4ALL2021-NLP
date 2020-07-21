@@ -14,7 +14,7 @@ Here you can find links to all class materials used for the research project.
     * [Friday: Clustering](https://docs.google.com/presentation/d/17PIP4NrJpMIChHWZSiXeJEXez-2wPMRero0Pf9uuS_Y/edit?usp=sharing) 
  * Week 2 
     * [Monday: Bayes' Rule](https://docs.google.com/presentation/d/1IJYCQ4nxmNvIq6I4BCyOHPScVdnjSaUw2vuS4keKtL4/edit?usp=sharing) 
-    * Tuesday: Naive Bayes 
+    * [Tuesday: Naive Bayes](https://docs.google.com/presentation/d/1z0Zzz64I142GpAC3B42ebIeViMsJhaJigMEFe49yd_c/edit?usp=sharing)  
     * Wednesday: Evaluation Metrics
     * Thursday: Word processing 
     * Friday: Regression 
