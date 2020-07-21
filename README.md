@@ -13,7 +13,7 @@ Here you can find links to all class materials used for the research project.
     * [Thursday: Data and Bias](https://docs.google.com/presentation/d/1uzYc9VJwdk9_0bltWeKD3v3mk-xUu7N7GLxXCeoYt6g/edit?usp=sharing)
     * [Friday: Clustering](https://docs.google.com/presentation/d/17PIP4NrJpMIChHWZSiXeJEXez-2wPMRero0Pf9uuS_Y/edit?usp=sharing) 
  * Week 2 
-    * Monday: Bayes' Rule 
+    * [Monday: Bayes' Rule](https://docs.google.com/presentation/d/1IJYCQ4nxmNvIq6I4BCyOHPScVdnjSaUw2vuS4keKtL4/edit?usp=sharing) 
     * Tuesday: Naive Bayes 
     * Wednesday: Evaluation Metrics
     * Thursday: Word processing 
@@ -35,7 +35,7 @@ Here you can find links to all class materials used for the research project.
 * [Clustering](https://colab.research.google.com/drive/193Usn5kdlEyqZsppbnkd-Thl4S0rx3z1?usp=sharing)
 * [Conditional Probability Exercises Part 1](https://docs.google.com/document/d/1BCfqvUykb5W6Gs2j1sO3NdJ928cfBfDP9pMsGjAMOcU/edit?usp=sharing) 
 * [Conditional Probability Exercises Part 2](https://colab.research.google.com/drive/1kVdK8tte1jjEXlCtp7JBurBQ7OiAD-od?usp=sharing)
-
+* [Naive Bayes](https://colab.research.google.com/drive/1sJLpnTCvDUcoDku5uks30NiJg0Pfbt6h?usp=sharing)
 
 
 ### Feedback 
