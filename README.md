@@ -36,6 +36,7 @@ Here you can find links to all class materials used for the research project.
 * [Conditional Probability Exercises Part 1](https://docs.google.com/document/d/1BCfqvUykb5W6Gs2j1sO3NdJ928cfBfDP9pMsGjAMOcU/edit?usp=sharing) 
 * [Conditional Probability Exercises Part 2](https://colab.research.google.com/drive/1kVdK8tte1jjEXlCtp7JBurBQ7OiAD-od?usp=sharing)
 * [Naive Bayes](https://colab.research.google.com/drive/1sJLpnTCvDUcoDku5uks30NiJg0Pfbt6h?usp=sharing)
+* [Evaluation](https://colab.research.google.com/drive/1LwCdwi7oJWvYVQ2vzCNwvr2Rpewf38BR?usp=sharing)
 
 ## In-class exercises 
 * [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
