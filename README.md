@@ -37,6 +37,8 @@ Here you can find links to all class materials used for the research project.
 * [Conditional Probability Exercises Part 2](https://colab.research.google.com/drive/1kVdK8tte1jjEXlCtp7JBurBQ7OiAD-od?usp=sharing)
 * [Naive Bayes](https://colab.research.google.com/drive/1sJLpnTCvDUcoDku5uks30NiJg0Pfbt6h?usp=sharing)
 
+## In-class exercises 
+* [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
 
 ### Feedback 
 * Please use this [form](https://forms.gle/VKH8KisGdPigFs2E9) to share any anonymous feedback, thoughts, or concerns with Marion and Eli. 
