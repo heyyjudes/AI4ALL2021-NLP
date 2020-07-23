@@ -15,8 +15,8 @@ Here you can find links to all class materials used for the research project.
  * Week 2 
     * [Monday: Bayes' Rule](https://docs.google.com/presentation/d/1IJYCQ4nxmNvIq6I4BCyOHPScVdnjSaUw2vuS4keKtL4/edit?usp=sharing) 
     * [Tuesday: Naive Bayes](https://docs.google.com/presentation/d/1z0Zzz64I142GpAC3B42ebIeViMsJhaJigMEFe49yd_c/edit?usp=sharing)  
-    * Wednesday: Evaluation Metrics
-    * Thursday: Word processing 
+    * [Wednesday: Evaluation Metrics](https://docs.google.com/presentation/d/1hVQwr0YA6N7LG4QYKWYnaIG8kVPIZ-P9zHmX7N4sKjM/edit?usp=sharing)
+    * [Thursday: Word processing](https://docs.google.com/presentation/d/1xvcs2ulKekr6IkLcqtP5ndzjMHDvBsCPLSG1EKUv6EM/edit?usp=sharing)
     * Friday: Regression 
  * Week 3
     * Monday: Classification 
@@ -37,6 +37,7 @@ Here you can find links to all class materials used for the research project.
 * [Conditional Probability Exercises Part 2](https://colab.research.google.com/drive/1kVdK8tte1jjEXlCtp7JBurBQ7OiAD-od?usp=sharing)
 * [Naive Bayes](https://colab.research.google.com/drive/1sJLpnTCvDUcoDku5uks30NiJg0Pfbt6h?usp=sharing)
 * [Evaluation](https://colab.research.google.com/drive/1LwCdwi7oJWvYVQ2vzCNwvr2Rpewf38BR?usp=sharing)
+* [Language Model](https://colab.research.google.com/drive/1jTmjij-Bu9wGPZiP8b-9eVbyb1jXYf7g?usp=sharing)
 
 ## In-class exercises 
 * [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
