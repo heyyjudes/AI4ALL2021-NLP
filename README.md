@@ -17,7 +17,7 @@ Here you can find links to all class materials used for the research project.
     * [Tuesday: Naive Bayes](https://docs.google.com/presentation/d/1z0Zzz64I142GpAC3B42ebIeViMsJhaJigMEFe49yd_c/edit?usp=sharing)  
     * [Wednesday: Evaluation Metrics](https://docs.google.com/presentation/d/1hVQwr0YA6N7LG4QYKWYnaIG8kVPIZ-P9zHmX7N4sKjM/edit?usp=sharing)
     * [Thursday: Word processing](https://docs.google.com/presentation/d/1xvcs2ulKekr6IkLcqtP5ndzjMHDvBsCPLSG1EKUv6EM/edit?usp=sharing)
-    * Friday: Regression 
+    * [Friday: Regression](https://docs.google.com/presentation/d/107_LIBHwDacge_FT6q8sTAV0G1A3heOfYPddzuAku_s/edit?usp=sharing)
  * Week 3
     * Monday: Classification 
     * Tuesday: Artificial Neural Networks 
@@ -38,6 +38,7 @@ Here you can find links to all class materials used for the research project.
 * [Naive Bayes](https://colab.research.google.com/drive/1sJLpnTCvDUcoDku5uks30NiJg0Pfbt6h?usp=sharing)
 * [Evaluation](https://colab.research.google.com/drive/1LwCdwi7oJWvYVQ2vzCNwvr2Rpewf38BR?usp=sharing)
 * [Language Model](https://colab.research.google.com/drive/1jTmjij-Bu9wGPZiP8b-9eVbyb1jXYf7g?usp=sharing)
+* [Regression](https://colab.research.google.com/drive/1alQx4O1hTDOiT2ZS8jZWC5mqTdef1Lzj?usp=sharing)
 
 ## In-class exercises 
 * [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
