@@ -39,6 +39,7 @@ Here you can find links to all class materials used for the research project.
 * [Evaluation](https://colab.research.google.com/drive/1LwCdwi7oJWvYVQ2vzCNwvr2Rpewf38BR?usp=sharing)
 * [Language Model](https://colab.research.google.com/drive/1jTmjij-Bu9wGPZiP8b-9eVbyb1jXYf7g?usp=sharing)
 * [Regression](https://colab.research.google.com/drive/1alQx4O1hTDOiT2ZS8jZWC5mqTdef1Lzj?usp=sharing)
+* [Classification](https://colab.research.google.com/drive/16GwM_whFtyqQ-kNZIxJSDqjLYoqRruST?usp=sharing)
 
 ## In-class exercises 
 * [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
