@@ -19,7 +19,7 @@ Here you can find links to all class materials used for the research project.
     * [Thursday: Word processing](https://docs.google.com/presentation/d/1xvcs2ulKekr6IkLcqtP5ndzjMHDvBsCPLSG1EKUv6EM/edit?usp=sharing)
     * [Friday: Regression](https://docs.google.com/presentation/d/107_LIBHwDacge_FT6q8sTAV0G1A3heOfYPddzuAku_s/edit?usp=sharing)
  * Week 3
-    * Monday: Classification 
+    * [Monday: Classification](https://docs.google.com/presentation/d/1AxugrG-iU3Rdyc9xV1dBmQHQB8AZfmQ-vKIlqqTZPm0/edit?usp=sharing) 
     * Tuesday: Artificial Neural Networks 
     * Wednesday: More NLP 
     * Thursday: Wrap up and presentation prep 
