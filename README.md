@@ -43,6 +43,17 @@ Here you can find links to all class materials used for the research project.
 * [Preprocessing](https://colab.research.google.com/drive/1IYeyZDKps2kEtjjvIXlIRXe8kge0KEL1?usp=sharing) 
 * [Visualization](https://colab.research.google.com/drive/1Y_bMBfHsfHnFaX2XhVeYkUeD-6yVv-zi?usp=sharing)
 
+## Solution to Activity Notebooks 
+* [Clustering](https://colab.research.google.com/drive/1Q9E--4ix_cCeHW_brVWAEanZIhwvep7B?usp=sharing) 
+* [Conditional Probability Exercises Part 2](https://colab.research.google.com/drive/1NGdpUyBwB4eJlow8bpUdapf_zfGaDxc-?usp=sharing) 
+* [Naive Bayes](https://colab.research.google.com/drive/1M0l7FvblFnF4G7N3kbnz46bV_OI88-VL?usp=sharing) 
+* [Evaluation](https://colab.research.google.com/drive/1SKYHRCCf2RadV3rzL8pWBbL_UogO5Q4l?usp=sharing) 
+* [Language Model](https://colab.research.google.com/drive/1vabRivkDHfs2UgzX8T6MwgW3R9ygrHIT?usp=sharing) 
+* [Regression](https://colab.research.google.com/drive/1QmdNx0d-kTC7BFsqFOsDPv3VWyBFkEJi?usp=sharing) 
+* [Classification](https://colab.research.google.com/drive/13JFMIPG22P7hcu4WlLvfb6Br9MDDvced?usp=sharing) 
+* [Preprocessing](https://colab.research.google.com/drive/1yTTELKSPEOMXiIdAZLPhPAWQuddiG6_J?usp=sharing) 
+* [Visualization](https://colab.research.google.com/drive/1hChJHBo9YP30qWGcBdidnl8G2OY_LciF?usp=sharing) 
+
 ## In-class exercises 
 * [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
 
