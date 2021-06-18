@@ -150,7 +150,14 @@ def disp_confusion_matrix(conf_mat):
     for c in range(n_cols):
       conf_mat[r,c] *= 256 / cnt
 
-  plt.imshow(conf_mat, cmap=plt.cm.Blues)
+  fig, ax = plt.subplots(1, 1)
+  img = ax.imshow(conf_mat, cmap=plt.cm.Blues)
+  print(categories)
+  ax.set_xticks(range(5))
+  ax.set_xticklabels(categories)
+  ax.set_yticks(range(5))
+  ax.set_yticklabels(categories)
+  fig.colorbar(img) 
 
 
 def class_pie_chart(tweets):
