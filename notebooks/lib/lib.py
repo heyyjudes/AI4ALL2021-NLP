@@ -317,7 +317,6 @@ def get_category_f1(predictions, c):
   print("Recall: ", recall)
   print("F1: ", f1)
   print("")
-#     p(rint "Class %s: precision %.2f, recall %.2f, F1 %.2f" % (c, precision, recall, f1)
 
   return precision, recall, f1
 
@@ -455,11 +454,20 @@ def learn_nb(tweets):
     prior_probs[c] = prior_c
   return prior_probs, feature_probs
 
+def evaluate_nb_single(tweets, test_tweets, stop_words=[], stemmer=None, lmtzr=None, has_return=False):
+  probs = {}
+  for category in categories:
+      prior_prob, token_prob = calc_probs_single(tweets, category, stop_words=stop_words, stemmer=stemmer, lmtzr=lmtzr)
+      probs[category] = (prior_prob, token_prob)
+
+  # Get average F1 score for the test set
+  predictions = [(tweet, classify_nb_single(tweet, probs, stop_words=stop_words, stemmer=stemmer)) for tweet in test_tweets] # maps each test tweet to its predicted label
+  return evaluate(predictions, has_return=has_return)
+
 
 def get_log_posterior_prob(tweet, prob_c, feature_probs_c):
     """Calculate the posterior P(c|tweet).
     (Actually, calculate something proportional to it).
-
     Inputs:
         tweet: a tweet
         prob_c: the prior probability of category c
