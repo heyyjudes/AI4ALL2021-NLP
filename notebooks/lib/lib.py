@@ -462,8 +462,17 @@ def evaluate_nb_single(tweets, test_tweets, stop_words=[], stemmer=None, lmtzr=N
 
   # Get average F1 score for the test set
   predictions = [(tweet, classify_nb_single(tweet, probs, stop_words=stop_words, stemmer=stemmer)) for tweet in test_tweets] # maps each test tweet to its predicted label
-  return evaluate(predictions, has_return=has_return)
 
+  prior_probs = {c: probs[c][0] for c in categories}
+  token_probs = {c: probs[c][1] for c in categories} 
+  _, precisions, recalls, f1s = evaluate(predictions, has_return=True)
+  return {"prior_probs": prior_probs, 
+          "token_probs": token_probs, 
+          "categories": categories, 
+          "precisions": precisions, 
+          "recalls": recalls, 
+          "f1s": f1s, 
+          "predictions": predictions}
 
 def get_log_posterior_prob(tweet, prob_c, feature_probs_c):
     """Calculate the posterior P(c|tweet).
