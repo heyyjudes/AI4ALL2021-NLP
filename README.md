@@ -7,50 +7,46 @@ Here you can find links to all class materials used for the research project.
 
 ## Slides
 * Week 1
-    * [Monday: Introduction to Artificial Intelligence](https://docs.google.com/presentation/d/1tugMjyienZ0WhuRi0AKXMGgql2lRoZS-JeoPhIde33E/edit?usp=sharing) 
-    * [Tuesday: Introduction to Machine Learning](https://docs.google.com/presentation/d/1eWXGlT2LRMd7AFZM5oosDmjMPrQaoVOmGh9ho9YCe_k/edit?usp=sharing) 
-    * [Wednesday: Introduction to NLP](https://docs.google.com/presentation/d/1SqlnGpw-_L44kIhhYGSzRvktsGK9sFVxc7ZBhcUa92E/edit?usp=sharing)
-    * [Thursday: Data and Bias](https://docs.google.com/presentation/d/1uzYc9VJwdk9_0bltWeKD3v3mk-xUu7N7GLxXCeoYt6g/edit?usp=sharing)
-    * [Friday: Clustering](https://docs.google.com/presentation/d/17PIP4NrJpMIChHWZSiXeJEXez-2wPMRero0Pf9uuS_Y/edit?usp=sharing) 
- * Week 2 
-    * [Monday: Bayes' Rule](https://docs.google.com/presentation/d/1IJYCQ4nxmNvIq6I4BCyOHPScVdnjSaUw2vuS4keKtL4/edit?usp=sharing) 
-    * [Tuesday: Naive Bayes](https://docs.google.com/presentation/d/1z0Zzz64I142GpAC3B42ebIeViMsJhaJigMEFe49yd_c/edit?usp=sharing)  
-    * [Wednesday: Evaluation Metrics](https://docs.google.com/presentation/d/1hVQwr0YA6N7LG4QYKWYnaIG8kVPIZ-P9zHmX7N4sKjM/edit?usp=sharing)
-    * [Thursday: Word processing](https://docs.google.com/presentation/d/1xvcs2ulKekr6IkLcqtP5ndzjMHDvBsCPLSG1EKUv6EM/edit?usp=sharing)
-    * [Friday: Regression](https://docs.google.com/presentation/d/107_LIBHwDacge_FT6q8sTAV0G1A3heOfYPddzuAku_s/edit?usp=sharing)
- * Week 3
-    * [Monday: Classification](https://docs.google.com/presentation/d/1AxugrG-iU3Rdyc9xV1dBmQHQB8AZfmQ-vKIlqqTZPm0/edit?usp=sharing) 
-    * [Tuesday: Artificial Neural Networks](https://docs.google.com/presentation/d/1N5Njccq5mWuRcEW37bA2BkqA4lgOGtLmwMr2hfFsX8s/edit?usp=sharing) 
-    * [Wednesday: More NLP](https://docs.google.com/presentation/d/114DrDIbWzDYXbcXgjd9LMUx1hr_dbcgJ7zjJANaw_iM/edit?usp=sharing)
+    * [: Introduction to Artificial Intelligence](https://docs.google.com/presentation/d/1KA4lu7CFyZADAxhTg5OQnRKf2I2YKCeRDBI0bZoLUAc/edit?usp=sharing) 
+    * [Tuesday: Introduction to NLP](https://docs.google.com/presentation/d/1uqe19SWVmEEgXPAIQOBniSXiB3UgVwsHcBgrHAQla58/edit?usp=sharing) 
+   * [06/30/21 Python A]()
+   * [07/01/21 Python B](https://docs.google.com/presentation/d/19kdw1a7KEVHu-Qa9dSALbV0I3rH7oZnIRVtxYxfLkq0/edit?usp=sharing)
+   * [07/02/21 Rule-based Classifier](https://docs.google.com/presentation/d/1u0pUub_B1HYn59-Lq8btwePiWTFOuC20TfUYXUo77cQ/edit?usp=sharing)
+* Week 2
+   * [07/06/21 Evaluation](https://docs.google.com/presentation/d/1J-H1W1nAQtwk0X_CXcre5ywmQc6U_KlETI0p7kJJN4Y/edit?usp=sharing)
+   * [07/07/21 Naive Bayes](https://docs.google.com/presentation/u/0/d/19gQRRcbxquzQCRoS8LeL-1z1nZdauzhEQWvxyFdvdms/edit)
+   * [07/08/21 Data Representation](https://docs.google.com/presentation/d/12ug_kgm8UI4ZBS0XhMywlFqxlA5O5lpWGQWdJquvSws/edit?usp=sharing) 
+   * [07/09/21 Clustering](https://docs.google.com/presentation/d/15aezcsjfvMvD4wpxKLfuUXbocNx8Fc0ICHjBGjKwp5s/edit?usp=sharing) 
+
+* Week 3
+   * [07/12/21 Regression](https://docs.google.com/presentation/d/1A6zZ11HMCr7Jyr_xZYRHsZpZ5WHt5tu06Dqh1OqtbWg/edit?usp=sharing)
+   * [07/13/21 Classification](https://docs.google.com/presentation/u/0/d/1dTtsv1oneEyvfIVbVhg6xiUjXqFDRIlCoxsLVE1LoBQ/edit)
+   * [07/14/21 Neural Networks](https://docs.google.com/presentation/d/1MuU_5QAXrPlSNmwkzfYiNcLWGAd3vCTvIoNsWMu7y9I/edit?usp=sharing)
     * Thursday: Wrap up and presentation prep 
     * Friday: Presentations!
 
 ## Activity Notebooks 
-* [Python part 1](https://colab.research.google.com/drive/16u1R4a_esZ1B6993HoUlZPdgKiFspVDs?usp=sharing)
-* [Python part 2](https://colab.research.google.com/drive/1UzT1wjKcLY0p9fCX8o5RiwtOrvRK_vx6?usp=sharing) 
-* [Python part 3](https://colab.research.google.com/drive/1HUbgP01WAfvCrvzXSEUUB1I1jaDLO3pM?usp=sharing)
-* [Python part 4](https://colab.research.google.com/drive/1is6iBSaVPzjx99AOhVdoRkczaYMq5X-W?usp=sharing)
-* [Rule-based Classifier](https://colab.research.google.com/drive/1BciiWJGb7X06Aj3BPs2NdQofWdSpnDBq?usp=sharing)
-* [Bias](https://colab.research.google.com/drive/1jDTCvvf_W103cnNI5LZtO3Q22o4RPCG1?usp=sharing)
-* [Clustering](https://colab.research.google.com/drive/193Usn5kdlEyqZsppbnkd-Thl4S0rx3z1?usp=sharing)
-* [Conditional Probability Exercises Part 1](https://docs.google.com/document/d/1BCfqvUykb5W6Gs2j1sO3NdJ928cfBfDP9pMsGjAMOcU/edit?usp=sharing) 
-* [Conditional Probability Exercises Part 2](https://colab.research.google.com/drive/1kVdK8tte1jjEXlCtp7JBurBQ7OiAD-od?usp=sharing)
-* [Naive Bayes](https://colab.research.google.com/drive/1sJLpnTCvDUcoDku5uks30NiJg0Pfbt6h?usp=sharing)
-* [Evaluation](https://colab.research.google.com/drive/1LwCdwi7oJWvYVQ2vzCNwvr2Rpewf38BR?usp=sharing)
-* [Language Model](https://colab.research.google.com/drive/1jTmjij-Bu9wGPZiP8b-9eVbyb1jXYf7g?usp=sharing)
-* [Regression](https://colab.research.google.com/drive/1alQx4O1hTDOiT2ZS8jZWC5mqTdef1Lzj?usp=sharing)
-* [Classification](https://colab.research.google.com/drive/16GwM_whFtyqQ-kNZIxJSDqjLYoqRruST?usp=sharing)
-* [Preprocessing](https://colab.research.google.com/drive/1IYeyZDKps2kEtjjvIXlIRXe8kge0KEL1?usp=sharing) 
-* [Visualization](https://colab.research.google.com/drive/1Y_bMBfHsfHnFaX2XhVeYkUeD-6yVv-zi?usp=sharing)
+* Week 1 
+   * [06/30/21 Python part 1](https://drive.google.com/file/d/1TTikbtYXzwRCctC0P5HWoB4hQbLxMehT/view?usp=sharing)
+   * [06/30/21 Python part 2](https://drive.google.com/file/d/1cr-ffbJmcE-ABg_YGRuAqSdIyun_j-U2/view?usp=sharing) 
+   * [07/01/21 Python part 3](https://drive.google.com/file/d/1xTPiRW3drmnBq8N2RDRq0z-7-6gqxkFv/view?usp=sharing)
+   * [07/01/21 Python part 4](https://drive.google.com/file/d/1aLvvunIDlCyvVeQDdacCWcaueLA0hfW4/view?usp=sharing)
+   * [07/02/21 Rule-based Classifier](https://drive.google.com/file/d/1k8jRfxaS_N1IkPkb3Jy2nes7xCmWgys4/view?usp=sharing)
+* Week 2
+   * [07/06/21 Evaluation](https://drive.google.com/file/d/1scAcfevrH00jKL1oSsKdRvCu_iYjUm95/view?usp=sharing)
+   * [07/07/21 Naive Bayes](https://drive.google.com/file/d/1rjArZIpp1LAIsRsHvY7MfD5koLEUZRCH/view?usp=sharing)
+   * [07/08/21 Data Representation](https://drive.google.com/file/d/1x6VO14P0MWQliLdjY0qiV9LEOVPIauBW/view?usp=sharing) 
+   * [07/09/21 Clustering](https://drive.google.com/file/d/1Z2y7PG0vxMqhrd4Uq9Wn0UWuxvw8x9ZS/view?usp=sharing) 
+* Week 3
+   * [07/12/21 Regression](https://drive.google.com/file/d/1xh908m_japnXYF6InscmV_BKvxjUelom/view?usp=sharing)
+   * [07/13/21 Classification](https://drive.google.com/file/d/1kBswUcK3GipIkK3xDw8W5dFUM6dqxAlb/view?usp=sharing)
+   * [07/14/21 Neural Networks](https://drive.google.com/file/d/1iADAPBbcgzFv6SOwsU2wWXztJTo_YGt0/view?usp=sharing)
 
 ## Solution to Activity Notebooks 
 * To be posted
 
 ## In-class exercises 
 * [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
-
-### Feedback 
-* Please use this [form](https://forms.gle/VKH8KisGdPigFs2E9) to share any anonymous feedback, thoughts, or concerns with Marion and Eli. 
 
 
 ## Other materials
