@@ -7,9 +7,9 @@ Here you can find links to all class materials used for the research project.
 
 ## Slides
 * Week 1
-    * [: Introduction to Artificial Intelligence](https://docs.google.com/presentation/d/1KA4lu7CFyZADAxhTg5OQnRKf2I2YKCeRDBI0bZoLUAc/edit?usp=sharing) 
-    * [Tuesday: Introduction to NLP](https://docs.google.com/presentation/d/1uqe19SWVmEEgXPAIQOBniSXiB3UgVwsHcBgrHAQla58/edit?usp=sharing) 
-   * [06/30/21 Python A]()
+    * [06/28/21: Introduction to Artificial Intelligence](https://docs.google.com/presentation/d/1KA4lu7CFyZADAxhTg5OQnRKf2I2YKCeRDBI0bZoLUAc/edit?usp=sharing) 
+    * [06/29/21: Introduction to NLP](https://docs.google.com/presentation/d/1uqe19SWVmEEgXPAIQOBniSXiB3UgVwsHcBgrHAQla58/edit?usp=sharing) 
+   * 06/30/21 Python A
    * [07/01/21 Python B](https://docs.google.com/presentation/d/19kdw1a7KEVHu-Qa9dSALbV0I3rH7oZnIRVtxYxfLkq0/edit?usp=sharing)
    * [07/02/21 Rule-based Classifier](https://docs.google.com/presentation/d/1u0pUub_B1HYn59-Lq8btwePiWTFOuC20TfUYXUo77cQ/edit?usp=sharing)
 * Week 2
@@ -27,20 +27,20 @@ Here you can find links to all class materials used for the research project.
 
 ## Activity Notebooks 
 * Week 1 
-   * [06/30/21 Python part 1](https://drive.google.com/file/d/1TTikbtYXzwRCctC0P5HWoB4hQbLxMehT/view?usp=sharing)
-   * [06/30/21 Python part 2](https://drive.google.com/file/d/1cr-ffbJmcE-ABg_YGRuAqSdIyun_j-U2/view?usp=sharing) 
-   * [07/01/21 Python part 3](https://drive.google.com/file/d/1xTPiRW3drmnBq8N2RDRq0z-7-6gqxkFv/view?usp=sharing)
-   * [07/01/21 Python part 4](https://drive.google.com/file/d/1aLvvunIDlCyvVeQDdacCWcaueLA0hfW4/view?usp=sharing)
-   * [07/02/21 Rule-based Classifier](https://drive.google.com/file/d/1k8jRfxaS_N1IkPkb3Jy2nes7xCmWgys4/view?usp=sharing)
+   * [06/30/21 Python part 1](https://colab.research.google.com/drive/1TTikbtYXzwRCctC0P5HWoB4hQbLxMehT)
+   * [06/30/21 Python part 2](https://colab.research.google.com/drive/1cr-ffbJmcE-ABg_YGRuAqSdIyun_j-U2) 
+   * [07/01/21 Python part 3](https://colab.research.google.com/drive/1xTPiRW3drmnBq8N2RDRq0z-7-6gqxkFv)
+   * [07/01/21 Python part 4](https://colab.research.google.com/drive/1aLvvunIDlCyvVeQDdacCWcaueLA0hfW4)
+   * [07/02/21 Rule-based Classifier](https://colab.research.google.com/drive/1k8jRfxaS_N1IkPkb3Jy2nes7xCmWgys4)
 * Week 2
-   * [07/06/21 Evaluation](https://drive.google.com/file/d/1scAcfevrH00jKL1oSsKdRvCu_iYjUm95/view?usp=sharing)
-   * [07/07/21 Naive Bayes](https://drive.google.com/file/d/1rjArZIpp1LAIsRsHvY7MfD5koLEUZRCH/view?usp=sharing)
-   * [07/08/21 Data Representation](https://drive.google.com/file/d/1x6VO14P0MWQliLdjY0qiV9LEOVPIauBW/view?usp=sharing) 
-   * [07/09/21 Clustering](https://drive.google.com/file/d/1Z2y7PG0vxMqhrd4Uq9Wn0UWuxvw8x9ZS/view?usp=sharing) 
+   * [07/06/21 Evaluation](https://colab.research.google.com/drive/1scAcfevrH00jKL1oSsKdRvCu_iYjUm95)
+   * [07/07/21 Naive Bayes](https://colab.research.google.com/drive/1rjArZIpp1LAIsRsHvY7MfD5koLEUZRCH)
+   * [07/08/21 Data Representation](https://colab.research.google.com/drive/1x6VO14P0MWQliLdjY0qiV9LEOVPIauBW) 
+   * [07/09/21 Clustering](https://colab.research.google.com/drive/1Z2y7PG0vxMqhrd4Uq9Wn0UWuxvw8x9ZS) 
 * Week 3
-   * [07/12/21 Regression](https://drive.google.com/file/d/1xh908m_japnXYF6InscmV_BKvxjUelom/view?usp=sharing)
-   * [07/13/21 Classification](https://drive.google.com/file/d/1kBswUcK3GipIkK3xDw8W5dFUM6dqxAlb/view?usp=sharing)
-   * [07/14/21 Neural Networks](https://drive.google.com/file/d/1iADAPBbcgzFv6SOwsU2wWXztJTo_YGt0/view?usp=sharing)
+   * [07/12/21 Regression](https://colab.research.google.com/drive/1xh908m_japnXYF6InscmV_BKvxjUelom)
+   * [07/13/21 Classification](https://colab.research.google.com/drive/1kBswUcK3GipIkK3xDw8W5dFUM6dqxAlb)
+   * [07/14/21 Neural Networks](https://colab.research.google.com/drive/1iADAPBbcgzFv6SOwsU2wWXztJTo_YGt0)
 
 ## Solution to Activity Notebooks 
 * To be posted
