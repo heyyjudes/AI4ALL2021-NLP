@@ -3,7 +3,7 @@
 This is the homepage for the [AI4ALL 2021](http://ai4all.stanford.edu/) NLP research project. 
 Here you can find links to all class materials used for the research project.
 
-2021 Instructors: Judy Hanwen Shen (jhshen@cs.stanford.edu) & Megan Leszczynski (lepertm@stanford.edu)
+2021 Instructors: Judy Hanwen Shen (jhshen@cs.stanford.edu) & Megan Leszczynski (mleszczy@stanford.edu)
 
 ## Slides
 * Week 1
