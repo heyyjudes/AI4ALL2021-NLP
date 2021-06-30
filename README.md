@@ -4,10 +4,12 @@ This is the homepage for the [AI4ALL 2021](http://ai4all.stanford.edu/) NLP rese
 Here you can find links to all class materials used for the research project.
 
 2021 Instructors: Judy Hanwen Shen (jhshen@cs.stanford.edu) & Megan Leszczynski (mleszczy@stanford.edu)
-
+## Notes
+[Daily questions and notes](https://docs.google.com/document/d/1dqfdP8IyviPkYcNayllUrKIWHranHyTtwi4ckUopt8M/edit?usp=sharing) 
 ## Slides
 * Week 1
     * [06/28/21: Introduction to Artificial Intelligence](https://docs.google.com/presentation/d/1KA4lu7CFyZADAxhTg5OQnRKf2I2YKCeRDBI0bZoLUAc/edit?usp=sharing) 
+    * [06/29/21: Introduction to ML](https://drive.google.com/file/d/1b5_PAujVMgNH5Te50JPvWAQ0mB-Aonu6/view?usp=sharing) 
     * [06/29/21: Introduction to NLP](https://docs.google.com/presentation/d/1uqe19SWVmEEgXPAIQOBniSXiB3UgVwsHcBgrHAQla58/edit?usp=sharing) 
    * 06/30/21 Python A
    * [07/01/21 Python B](https://docs.google.com/presentation/d/19kdw1a7KEVHu-Qa9dSALbV0I3rH7oZnIRVtxYxfLkq0/edit?usp=sharing)
