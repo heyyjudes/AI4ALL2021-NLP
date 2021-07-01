@@ -11,7 +11,7 @@ Here you can find links to all class materials used for the research project.
     * [06/28/21: Introduction to Artificial Intelligence](https://docs.google.com/presentation/d/1KA4lu7CFyZADAxhTg5OQnRKf2I2YKCeRDBI0bZoLUAc/edit?usp=sharing) 
     * [06/29/21: Introduction to ML](https://drive.google.com/file/d/1b5_PAujVMgNH5Te50JPvWAQ0mB-Aonu6/view?usp=sharing) 
     * [06/29/21: Introduction to NLP](https://docs.google.com/presentation/d/1uqe19SWVmEEgXPAIQOBniSXiB3UgVwsHcBgrHAQla58/edit?usp=sharing) 
-   * 06/30/21 Python A
+   * [06/30/21 Python A](https://drive.google.com/file/d/1fcP4D1gPRtDNyQARyJFx5-YIjxMSUOaj/view?usp=sharing)
    * [07/01/21 Python B](https://docs.google.com/presentation/d/19kdw1a7KEVHu-Qa9dSALbV0I3rH7oZnIRVtxYxfLkq0/edit?usp=sharing)
    * [07/02/21 Rule-based Classifier](https://docs.google.com/presentation/d/1u0pUub_B1HYn59-Lq8btwePiWTFOuC20TfUYXUo77cQ/edit?usp=sharing)
 * Week 2
@@ -32,7 +32,7 @@ Here you can find links to all class materials used for the research project.
    * [06/30/21 Python part 1](https://colab.research.google.com/drive/1TTikbtYXzwRCctC0P5HWoB4hQbLxMehT)
    * [06/30/21 Python part 2](https://colab.research.google.com/drive/1cr-ffbJmcE-ABg_YGRuAqSdIyun_j-U2) 
    * [07/01/21 Python part 3](https://colab.research.google.com/drive/1xTPiRW3drmnBq8N2RDRq0z-7-6gqxkFv)
-   * [07/01/21 Python part 4](https://colab.research.google.com/drive/1aLvvunIDlCyvVeQDdacCWcaueLA0hfW4)
+   * [07/01/21 Python part 4](https://colab.research.google.com/drive/122ZaJ43hpY_h0BegP5ePfr6HKgPvSKJ2?usp=sharing)
    * [07/02/21 Rule-based Classifier](https://colab.research.google.com/drive/1k8jRfxaS_N1IkPkb3Jy2nes7xCmWgys4)
 * Week 2
    * [07/06/21 Evaluation](https://colab.research.google.com/drive/1scAcfevrH00jKL1oSsKdRvCu_iYjUm95)
