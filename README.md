@@ -45,7 +45,16 @@ Here you can find links to all class materials used for the research project.
    * [07/14/21 Neural Networks](https://colab.research.google.com/drive/1iADAPBbcgzFv6SOwsU2wWXztJTo_YGt0)
 
 ## Solution to Activity Notebooks 
-* To be posted
+* Week 1 
+   * [06/30/21 Python part 1](https://colab.research.google.com/drive/1658Jfhh6IKNIjssLW6bFW2XvxwNRS7Js)
+   * [06/30/21 Python part 2](https://colab.research.google.com/drive/1Xg49xqJGfJBeJ8-2XktNdaR5IMW1TlD5) 
+   * [07/01/21 Python part 3](https://colab.research.google.com/drive/1ArCG9hXrYdowFKUp9A6-rPTrxbx1xIOR)
+   * [07/02/21 Rule-based Classifier](https://colab.research.google.com/drive/1EmXE0iMr4QW3yRM0uubqwwgRfmaej7f1)
+* Week 2
+   * [07/06/21 Evaluation](https://colab.research.google.com/drive/1o_FS00RKkXD52XAbwm5eEyonirp9XLrn)
+   * [07/07/21 Naive Bayes Partial Solutions](https://colab.research.google.com/drive/1A15VFRf33LyQvTleWskz4zn2XX7zKWbT?usp=sharing)
+
+
 
 ## In-class exercises 
 * [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
