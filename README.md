@@ -37,7 +37,7 @@ Here you can find links to all class materials used for the research project.
 * Week 2
    * [07/06/21 Evaluation](https://colab.research.google.com/drive/1scAcfevrH00jKL1oSsKdRvCu_iYjUm95)
    * [07/07/21 Naive Bayes](https://colab.research.google.com/drive/1rjArZIpp1LAIsRsHvY7MfD5koLEUZRCH)
-   * [07/08/21 Data Representation](https://colab.research.google.com/drive/1x6VO14P0MWQliLdjY0qiV9LEOVPIauBW) 
+   * [07/08/21 Data Representation](https://colab.research.google.com/drive/1RS4UIL1sKw4hQ4xhBlAyZ4FHGj8nZGPP?usp=sharing) 
    * [07/09/21 Clustering](https://colab.research.google.com/drive/1Z2y7PG0vxMqhrd4Uq9Wn0UWuxvw8x9ZS) 
 * Week 3
    * [07/12/21 Regression](https://colab.research.google.com/drive/1xh908m_japnXYF6InscmV_BKvxjUelom)
