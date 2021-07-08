@@ -9,6 +9,7 @@ import numpy as np
 from collections import Counter
 import nltk
 from nltk.tokenize import word_tokenize
+import IPython
 from IPython.display import HTML, display
 import matplotlib
 from matplotlib import pyplot as plt
@@ -533,8 +534,6 @@ def get_box_contents(n_boxes = 2):
     return boxes
 
 
-
-
 def visualize_tweet(tweet, prior_probs, token_probs):
     """
         Visualizes a tweet and its probabilities in an IPython notebook.
@@ -549,13 +548,14 @@ def visualize_tweet(tweet, prior_probs, token_probs):
 
     # boileplate HTML part 1
     html = """
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <div id="viz-overlay" style="display:none;position:absolute;width:250px;height:110px;border: 1px solid #000; padding:8px;  background: #eee;">
-    <p>
+	<p>
        <span style="color:orange;">P(<span class="viz-token-placeholder"></span> | food) = <span id="viz-p-food"></span></span><br>
-       <span style="color:blue;">P(<span class="viz-token-placeholder"></span> | water) = <span id="viz-p-water"></span><br>
-       <span style="color:green;">P(<span class="viz-token-placeholder"></span> | medical) = <span id="viz-p-medical"></span><br>
-       <span style="color:red;">P(<span class="viz-token-placeholder"></span> | energy) = <span id="viz-p-energy"></span><br>
-       <span style="color:gray;">P(<span class="viz-token-placeholder"></span> | none) = <span id="viz-p-none"></span></p>
+	   <span style="color:blue;">P(<span class="viz-token-placeholder"></span> | water) = <span id="viz-p-water"></span><br>
+	   <span style="color:green;">P(<span class="viz-token-placeholder"></span> | medical) = <span id="viz-p-medical"></span><br>
+	   <span style="color:red;">P(<span class="viz-token-placeholder"></span> | energy) = <span id="viz-p-energy"></span><br>
+	   <span style="color:gray;">P(<span class="viz-token-placeholder"></span> | none) = <span id="viz-p-none"></span></p>
     </p>
     </div>
 
@@ -582,28 +582,25 @@ def visualize_tweet(tweet, prior_probs, token_probs):
               % (class2color_style(predicted_category), predicted_category)
     html += '<strong>True category: </strong> <span style="%s"> %s</span></p>' \
               % (class2color_style(tweet.category), tweet.category)
-
+    html += "</div>" 
     #Javascript
-    html += """
-    </div>
-     <script type="text/javascript">
-    $(document).ready(function() {
-        $("span.viz-token").mouseover(function() {
-            $("span.viz-token").css({"font-weight": "normal"});
-            $(this).css({"font-weight": "bold"});
-            $("span.viz-token-placeholder").text($(this).text());
-            $("#viz-p-food").text($(this).data("food"));
-            $("#viz-p-water").text($(this).data("water"));
-            $("#viz-p-medical").text($(this).data("medical"));
-            $("#viz-p-energy").text($(this).data("energy"));
-            $("#viz-p-none").text($(this).data("none"));
-            $("#viz-overlay").show();
-            $("#viz-overlay").offset({left:$(this).offset().left-110+$(this).width()/2, top:$(this).offset().top - 140});
-        });
-    });
-    </script>
-
+    js = """
+	$(document).ready(function() {
+		$("span.viz-token").mouseover(function() {
+			$("span.viz-token").css({"font-weight": "normal"});
+			$(this).css({"font-weight": "bold"});
+			$("span.viz-token-placeholder").text($(this).text());
+			$("#viz-p-food").text($(this).data("food"));
+			$("#viz-p-water").text($(this).data("water"));
+			$("#viz-p-medical").text($(this).data("medical"));
+			$("#viz-p-energy").text($(this).data("energy"));
+			$("#viz-p-none").text($(this).data("none"));
+			$("#viz-overlay").show();
+			$("#viz-overlay").offset({left:$(this).offset().left-110+$(this).width()/2, top:$(this).offset().top - 140});
+		});
+	});
     """
 
     display(HTML(html))
+    display(IPython.display.Javascript(js))
 
