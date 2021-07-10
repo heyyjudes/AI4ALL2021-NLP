@@ -52,8 +52,8 @@ Here you can find links to all class materials used for the research project.
    * [07/02/21 Rule-based Classifier](https://colab.research.google.com/drive/1EmXE0iMr4QW3yRM0uubqwwgRfmaej7f1)
 * Week 2
    * [07/06/21 Evaluation](https://colab.research.google.com/drive/1o_FS00RKkXD52XAbwm5eEyonirp9XLrn)
-   * [07/07/21 Naive Bayes Partial Solutions](https://colab.research.google.com/drive/1A15VFRf33LyQvTleWskz4zn2XX7zKWbT?usp=sharing)
-
+   * [07/07/21 Naive Bayes](https://colab.research.google.com/drive/1A15VFRf33LyQvTleWskz4zn2XX7zKWbT?usp=sharing)
+   * [07/08/21 Data Representation](https://colab.research.google.com/drive/19I0gBZsl4SHpEWCutbPH3YVCmT0pfLf_?usp=sharing)
 
 
 ## In-class exercises 
