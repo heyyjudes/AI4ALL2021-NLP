@@ -54,7 +54,7 @@ Here you can find links to all class materials used for the research project.
    * [07/06/21 Evaluation](https://colab.research.google.com/drive/1o_FS00RKkXD52XAbwm5eEyonirp9XLrn)
    * [07/07/21 Naive Bayes](https://colab.research.google.com/drive/1A15VFRf33LyQvTleWskz4zn2XX7zKWbT?usp=sharing)
    * [07/08/21 Data Representation](https://colab.research.google.com/drive/19I0gBZsl4SHpEWCutbPH3YVCmT0pfLf_?usp=sharing)
-
+   * [07/09/21 Clustering](https://drive.google.com/file/d/1JQl3eMW18XE8d5owLLqbr7DPNTC9lAbS/view?usp=sharing)
 
 ## In-class exercises 
 * [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
