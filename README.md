@@ -57,6 +57,7 @@ Here you can find links to all class materials used for the research project.
    * [07/09/21 Clustering](https://colab.research.google.com/drive/1ztrsPE7hrIjMtkDt6A-5rfmIt3kvijnv?usp=sharing)
 * Week 3
    * [07/12/21 Regression](https://colab.research.google.com/drive/1uuj7o0sEQmE4G3RKFMYQCg9bjyKaqJCR?usp=sharing)
+   * [07/13/21 Classification](https://colab.research.google.com/drive/12kTmUVgU3ATlp6FqoLabTu_rY3vdNiA5?usp=sharing)
 
 ## In-class exercises 
 * [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
