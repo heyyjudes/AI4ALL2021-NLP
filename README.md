@@ -43,6 +43,8 @@ Here you can find links to all class materials used for the research project.
    * [07/12/21 Regression](https://colab.research.google.com/drive/1xh908m_japnXYF6InscmV_BKvxjUelom)
    * [07/13/21 Classification](https://colab.research.google.com/drive/1kBswUcK3GipIkK3xDw8W5dFUM6dqxAlb)
    * [07/14/21 Neural Networks](https://colab.research.google.com/drive/1iADAPBbcgzFv6SOwsU2wWXztJTo_YGt0)
+* Project
+   * [Project Notebook](https://colab.research.google.com/drive/1ktdcq5rnRGf-ThTlgNoY1SypwHP8UnbC?usp=sharing)
 
 ## Solution to Activity Notebooks 
 * Week 1 
