@@ -61,6 +61,8 @@ Here you can find links to all class materials used for the research project.
    * [07/12/21 Regression](https://colab.research.google.com/drive/1uuj7o0sEQmE4G3RKFMYQCg9bjyKaqJCR?usp=sharing)
    * [07/13/21 Classification](https://colab.research.google.com/drive/12kTmUVgU3ATlp6FqoLabTu_rY3vdNiA5?usp=sharing)
    * [07/14/21 Neural Networks](https://colab.research.google.com/drive/121B7WcqmgsKO4OECWbHDanQXL2yH65xS?usp=sharing)
+* Project
+   * [Project Partial Solutions](https://colab.research.google.com/drive/1DhVE0tov7miA-PfVTCUvm02CEnSTqhnn#scrollTo=748d6da9)
 
 ## In-class exercises 
 * [Precision/Recall/F1 exercises](https://docs.google.com/document/d/15wFUFR_5TGDoTvtHq_GympeO_0GOrlRkDGkOkEQ28fQ/edit?usp=sharing) 
